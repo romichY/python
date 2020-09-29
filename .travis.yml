@@ -6,5 +6,4 @@ install:
 install:
   - pip install pipenv pytest flask psycopg2
   - pipenv install
-script:
-  - pytest
+
