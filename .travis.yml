@@ -3,7 +3,7 @@ language: python
 python:
   - 3.8
 install:
-install:
   - pip install pipenv pytest flask psycopg2
   - pipenv install
-
+script:
+  - pytest
