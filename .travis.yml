@@ -2,6 +2,7 @@
 language: python
 python:
   - 3.8
+  - 2.4
 services:
   - docker
   - postgresql
